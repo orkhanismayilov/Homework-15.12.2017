@@ -4,10 +4,8 @@ var x = 0;
 
 if (n > 0) {
     while (n >= a) {
-        if (n % a == 0) {
-            if (a % 2 == 1) {
-                console.log(a);
-            }
+        if (n % a == 0&&a % 2 == 1) {
+            console.log(a);
         }
         a++;
     }
